@@ -2,8 +2,8 @@
   description = "Rust shells";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    rust-overlay.url = "github:oxalica/rust-overlay";
+    nixpkgs.url = "git+https://mirrors.cernet.edu.cn/nixpkgs.git?ref=nixos-unstable";
+    rust-overlay.url = "git+htts://github.site/oxalica/rust-overlay";
   };
 
   outputs = inputs @ {flake-parts, ...}:
