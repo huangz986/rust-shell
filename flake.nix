@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "git+https://mirrors.cernet.edu.cn/nixpkgs.git?ref=nixos-unstable";
-    rust-overlay.url = "git+https://github.site/oxalica/rust-overlay";
+    rust-overlay.url = "git+https://github.site/oxalica/rust-overlay.git";
   };
 
   outputs = inputs @ {flake-parts, ...}:
